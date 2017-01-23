@@ -46,6 +46,17 @@ public class SVSheet {
 	}
 	
 	/**
+	 * 添加行
+	 * @author 银发Victorique
+	 * @email 823245670@qq.com
+	 */
+	public void addRow(){
+		row = this.sheet.createRow(rownum);
+		rownum ++;
+		colnum = 0;
+	}
+	
+	/**
 	 * 添加sv单元格
 	 * @author 银发Victorique
 	 * @email 823245670@qq.com
